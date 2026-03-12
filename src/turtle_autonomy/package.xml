@@ -8,11 +8,12 @@
   <license>Apache-2.0</license>
 
   <buildtool_depend>ament_python</buildtool_depend>
-  
+
   <depend>rclpy</depend>
   <depend>turtlesim</depend>
   <depend>geometry_msgs</depend>
   <depend>std_msgs</depend>
+  <depend>turtle_interfaces</depend>
 
   <exec_depend>launch</exec_depend>
   <exec_depend>launch_ros</exec_depend>

@@ -28,6 +28,8 @@ setup(
     entry_points={
         'console_scripts': [
             'turtle_autonomy = turtle_autonomy.autonomy_node:main',
+            'obstacle_server = turtle_autonomy.obstacle_server_node:main',
+            'spawn_turtles = turtle_autonomy.spawn_turtles_node:main',
         ],
     },
 )

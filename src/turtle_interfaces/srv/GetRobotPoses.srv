@@ -1,0 +1,5 @@
+string requester_name        # "turtle1"  — excluded from the response
+---
+string[]  names              # robot names   e.g. ["turtle2", "turtle3"]
+float64[] xs                 # turtlesim world-frame x positions
+float64[] ys                 # turtlesim world-frame y positions
